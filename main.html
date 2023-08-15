@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 
 <head>
+	<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Application Form</title>
 	<link rel="stylesheet" href="styles.css">
 </head>
 
@@ -10,7 +13,30 @@
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
-
+ <form action="" method="post">
+        <label for="name">Name</label>
+        <input type="text" id="name" required>
+        <label for="email">Email</label>
+        <input type="email" id="email" required>
+        Gender 
+        <input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female
+        Laptop Brands
+        <select name="" id="laptop">
+            <option value="Apple">Apple</option>
+            <option value="Asus">Asus</option>
+            <option value="HP">HP</option>
+        </select>
+        <label for="age">Age</label>
+        <input type="number" id="age" required>
+        <label for="dob">Date of Birth</label>
+        <input type="date" id="dob" required>
+        <label for="password">Password</label>
+        <input type="password" id="password" required>
+        <label for="portfolio">Portfolio URL</label>
+        <input type="url" id="portfolio">
+        <button type="submit">Submit</button>
+     </form>
 </body>
 
 </html>
